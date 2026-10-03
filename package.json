@@ -1,0 +1,31 @@
+{
+  "name": "bevr",
+  "version": "1.0.0",
+  "description": "Beyond Euclid VR — walk through H³, E³, and S³ in WebXR",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "vite --https",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawkguye/BEVR.git"
+  },
+  "keywords": ["webxr", "hyperbolic", "three.js", "non-euclidean"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
